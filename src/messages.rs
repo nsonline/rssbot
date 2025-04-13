@@ -14,6 +14,7 @@ where
         } else {
             let msg = msgs.last_mut().unwrap();
             msg.push('\n');
+            msg.push('\n');
             msg.push_str(&line);
         }
     }
